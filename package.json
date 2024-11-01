@@ -18,7 +18,6 @@
 		"url": "git@github.com:scriptcoded/react-fitter.git"
 	},
 	"funding": [
-		"https://github.com/scriptcoded/sql-highlight?sponsor=1",
 		{
 			"type": "github",
 			"url": "https://github.com/sponsors/scriptcoded"
