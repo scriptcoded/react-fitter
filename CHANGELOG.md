@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/scriptcoded/react-fitter/compare/v0.1.1...v0.1.2) (2024-11-01)
+
+
+### Documentation
+
+* add a simple readme ([27f01d2](https://github.com/scriptcoded/react-fitter/commit/27f01d23ad3f09a28c685749a9ffce98abf35037))
+
 ## 0.1.1 (2024-11-01)
 
 
