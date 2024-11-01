@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.5](https://github.com/scriptcoded/react-fitter/compare/v0.1.4...v0.1.5) (2024-11-01)
+
+
+### Bug Fixes
+
+* include hooks in build ([eea90bd](https://github.com/scriptcoded/react-fitter/commit/eea90bd2b4e387b7f351219b22629d3f480b9704))
+
 ## [0.1.4](https://github.com/scriptcoded/react-fitter/compare/v0.1.3...v0.1.4) (2024-11-01)
 
 
