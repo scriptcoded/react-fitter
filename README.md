@@ -1,4 +1,4 @@
-# react-fitter
+<h1 align="center">🫸 𝚛𝚎𝚊𝚌𝚝-𝚏𝚒𝚝𝚝𝚎𝚛 🫷</h1>
 
 In a project of mine I had to fit some text of unknown length to a container
 without it wrapping. This utility component does exactly that, regardless of
