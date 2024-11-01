@@ -4,7 +4,7 @@ import { esbuildPluginFilePathExtensions } from "esbuild-plugin-file-path-extens
 import { defineConfig } from "tsup";
 
 export default defineConfig({
-	entry: ["lib/index.ts", "lib/*.css"],
+	entry: ["lib/index.ts"],
 	format: ["cjs", "esm"],
 	target: ["chrome91", "firefox90", "edge91", "safari15", "ios15", "opera77"],
 	outDir: "dist",

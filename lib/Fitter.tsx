@@ -1,5 +1,5 @@
 import { type ReactNode, useEffect, useRef, useState } from "react";
-import { useDebounce, useResizeObserver } from "./hooks";
+import { useDebounce, useResizeObserver } from "./hooks.js";
 
 export type FitterProps = {
 	children: ReactNode;
