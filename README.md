@@ -1,50 +1,41 @@
-# React + TypeScript + Vite
+# react-fitter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In a project of mine I had to fit some text of unknown length to a container
+without it wrapping. This utility component does exactly that, regardless of
+whether if it sits inline, in a flexbox, grid or table. It just works.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+npm install react-fitter
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Usage:
+```jsx
+import { Fitter } from 'react-fitter'
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+// ...
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+<div className="my-text">
+  <Fitter>
+    This is some text that will perfectly fit in the container
+  </Fitter>
+</div>
 ```
+
+And your CSS can be whatever you want. The Fitter component will never make the
+text larger than what's set by your styles. It will only ever make it smaller.
+```css
+.my-text {
+  width: 400px;
+  font-size: 24px;
+  border: 1px solid hotpink;
+}
+```
+
+Which would look like this:
+
+![Example with react-fitter](./docs/with-fitter.png)
+
+
+In contrast to how it would look without react-fitter:
+
+![Example without react-fitter](./docs/without-fitter.png)
