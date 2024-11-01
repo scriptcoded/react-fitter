@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/scriptcoded/react-fitter/compare/v0.1.5...v0.1.6) (2024-11-01)
+
+
+### Bug Fixes
+
+* add documentation to props ([a97596e](https://github.com/scriptcoded/react-fitter/commit/a97596e7b7e3e5bd986469e0183de68ab9b7d695))
+
 ## [0.1.5](https://github.com/scriptcoded/react-fitter/compare/v0.1.4...v0.1.5) (2024-11-01)
 
 
