@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/scriptcoded/react-fitter/compare/v0.1.3...v0.1.4) (2024-11-01)
+
+
+### Continuous Integration
+
+* add step to build during publish ([abf9231](https://github.com/scriptcoded/react-fitter/commit/abf9231946606dbf9e65f2af7402ae47ac9f07c8))
+
 ## [0.1.3](https://github.com/scriptcoded/react-fitter/compare/v0.1.2...v0.1.3) (2024-11-01)
 
 
