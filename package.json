@@ -1,6 +1,29 @@
 {
 	"name": "react-fitter",
 	"version": "0.1.2",
+	"author": "Malcolm Nihlén <malcolm.nihlen@gmail.com>",
+	"license": "MIT",
+	"keywords": [
+		"react",
+		"text",
+		"font size",
+		"auto size",
+		"fitter",
+		"fit",
+		"resize",
+		"responsive"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:scriptcoded/react-fitter.git"
+	},
+	"funding": [
+		"https://github.com/scriptcoded/sql-highlight?sponsor=1",
+		{
+			"type": "github",
+			"url": "https://github.com/sponsors/scriptcoded"
+		}
+	],
 	"type": "module",
 	"exports": {
 		".": {
@@ -15,6 +38,7 @@
 		},
 		"./package.json": "./package.json"
 	},
+	"files": ["dist"],
 	"scripts": {
 		"dev": "vite",
 		"build": "tsup",
