@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.7](https://github.com/scriptcoded/react-fitter/compare/v0.1.6...v0.1.7) (2024-11-02)
+
+
+### Bug Fixes
+
+* add oldschool main and module exports ([c38cc76](https://github.com/scriptcoded/react-fitter/commit/c38cc760aac65f521b7b87e25aa53d2bf9849b92))
+
 ## [0.1.6](https://github.com/scriptcoded/react-fitter/compare/v0.1.5...v0.1.6) (2024-11-01)
 
 
