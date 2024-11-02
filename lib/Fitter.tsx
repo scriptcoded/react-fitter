@@ -28,12 +28,12 @@ export type FitterProps = {
 	 */
 	updateOnSizeChange?: boolean;
 	/**
-	 * The time to wait before updating the text size when the size of the
-	 * component changes. This is useful when the component is being resized
-	 * frequently and you want to avoid updating the text size on every resize
-	 * event.
+	 * The time in milliseconds to wait before updating the text size when the
+	 * size of the component changes. This is useful when the component is being
+	 * resized frequently and you want to avoid updating the text size on every
+	 * resize event.
 	 */
-	resizeDebounceTime?: number;
+	resizeDebounceMs?: number;
 };
 
 /**
@@ -47,7 +47,7 @@ export const Fitter = ({
 	maxLines = 1,
 	settlePrecision = 0.01,
 	updateOnSizeChange = true,
-	resizeDebounceTime = 100,
+	resizeDebounceMs = 50,
 }: FitterProps) => {
 	const wrapperRef = useRef<HTMLDivElement>(null);
 	const textRef = useRef<HTMLSpanElement>(null);
@@ -92,7 +92,7 @@ export const Fitter = ({
 	const start = useDebounce(() => {
 		setTargetMax(1);
 		setSettled(false);
-	}, resizeDebounceTime);
+	}, resizeDebounceMs);
 
 	useResizeObserver(wrapperRef, () => start(), updateOnSizeChange);
 
