@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.8](https://github.com/scriptcoded/react-fitter/compare/v0.1.7...v0.1.8) (2024-11-02)
+
+
+### Bug Fixes
+
+* reduce default debounce to 50ms ([ccef477](https://github.com/scriptcoded/react-fitter/commit/ccef477ec839ad46bbe99445eb5c0591ad704589))
+
 ## [0.1.7](https://github.com/scriptcoded/react-fitter/compare/v0.1.6...v0.1.7) (2024-11-02)
 
 
