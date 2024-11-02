@@ -4,6 +4,8 @@ In a project of mine I had to fit some text of unknown length to a container
 without it wrapping. This utility component does exactly that, regardless of
 whether if it sits inline, in a flexbox, grid or table. It just works.
 
+Demo: https://codesandbox.io/p/sandbox/swvf26
+
 > [!IMPORTANT]
 > 
 > At the moment the fitter can have some issues adjusting to containers that
