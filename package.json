@@ -1,6 +1,6 @@
 {
 	"name": "react-fitter",
-	"version": "0.1.6",
+	"version": "0.1.7",
 	"author": "Malcolm Nihlén <malcolm.nihlen@gmail.com>",
 	"license": "MIT",
 	"keywords": [
@@ -40,7 +40,9 @@
 	"main": "./dist/index.cjs",
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"files": ["./dist"],
+	"files": [
+		"./dist"
+	],
 	"scripts": {
 		"dev": "vite",
 		"build": "tsup",
