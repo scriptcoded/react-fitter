@@ -36,6 +36,7 @@ jobs:
       - name: Replace GitHub-specific markdown
         run: |
           sed -i 's/\[!IMPORTANT\]/### Important 💡/g' README.md
+        if: ${{ steps.release.outputs.release_created }}
 
       - name: Publish to NPM
         run: npm publish
